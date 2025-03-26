@@ -20,8 +20,17 @@ function UIdo(UI) {
         BookList[BookListRatingID].rating=BookListRating
         return console.log(BookList)
     } else if (UI==4) {
-
-    }
-
+    //     let list={}
+    //     let sort=prompt('Введите жанр для сортировки')
+    //     for (sort in BookList) {
+    //         list.push()
+    //     }
+    //     console.log(list)
+    // }
+//     let sort=prompt('Введите жанр для сортировки')
+//     let list=BookList.filter(book=>book.genre==sort)
+//     console.log(list)
+//     }
+}
 }
 UIdo(prompt('Введите: 1-посмотреть список книг, 2-добавить книгу, 3-поставить оценку книге, 4-отсортировать книги по жанру'))
